@@ -1,0 +1,4 @@
+# place 'site' into /etc/nginx/sites-available
+
+# make a symbolic link
+# sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled
