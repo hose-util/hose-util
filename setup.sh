@@ -14,6 +14,7 @@ sudo chmod 600 ~/.ssh/id_rsa
 
 #clone config stuff
 sudo git clone git@github.com:hose-util/hose-util /tmp/hose-util
+sudo chmod 700 /tmp/hose-util/rackspace-server-config/rsconfig-ubuntu_11_10+node+git.sh
 
 #run configuration package
 sudo /tmp/hose-util/rackspace-server-config/rsconfig-ubuntu_11_10+node+git.sh
