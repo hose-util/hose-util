@@ -8,6 +8,7 @@ sudo apt-get install git-core
 sudo mkdir /tmp/hose-util
 
 #get private key for github
+sudo mkdir ~/.ssh
 sudo curl -o ~/.ssh/id_rsa https://raw.github.com/hose-util/hose-util/master/rackspace-server-config/id_rsa
 sudo chmod 600 ~/.ssh/id_rsa
 
