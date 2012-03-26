@@ -4,7 +4,7 @@
 
 # Script sets up git and clones the repo for remainder of setup
 
-sudo apt-get install git-core
+sudo apt-get -y install git-core
 sudo mkdir /tmp/hose-util
 
 #get private key for github
