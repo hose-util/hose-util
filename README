@@ -1,0 +1,5 @@
+USAGE:
+
+Run the following on a fresh ubuntu 11-10 install
+
+* sudo apt-get update && sudo apt-get install curl && sudo curl -o /tmp/setup.sh https://raw.github.com/hose-util/hose-util/master/setup.sh && chmod 700 /tmp/setup.sh && /tmp/setup.sh
