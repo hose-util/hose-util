@@ -41,3 +41,6 @@ sudo usermod -a -G admin sysadmin
 echo ** SETUP COMPLETE **
 echo ** Created sysadmin user, enter administrator password: **
 passwd sysadmin
+
+echo Removing setup files.
+sudo rm -R /tmp/*
