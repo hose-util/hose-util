@@ -1,12 +1,5 @@
-#refresh apt-get packages
-sudo apt-get update
-
 #install basics
-sudo apt-get -y install git-core curl build-essential openssl libssl-dev pkg-config
-
-#get private key for github
-sudo curl -o ~/.ssh/id_rsa https://raw.github.com/hose-util/hose-util/master/rackspace-server-config/id_rsa
-sudo chmod 600 ~/.ssh/id_rsa
+sudo apt-get -y install build-essential openssl libssl-dev pkg-config
 
 #install node 0.6.3
 sudo git clone https://github.com/joyent/node.git && cd node
